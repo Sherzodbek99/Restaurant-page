@@ -4,7 +4,7 @@ import { MdOutlineRestaurantMenu } from 'react-icons/md'
 
 import images from '../../constants/images'
 import './Navbar.css';
-import { set } from 'mongoose';
+
 
 const Navbar = () => {
   const [toggle, setToggle] = React.useState(false)
